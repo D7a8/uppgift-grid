@@ -1,38 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html,
-body {
-    height: 100%; 
-}
-.container {
-    display: grid;
-    gap: 10px;
-    grid-template-areas: 
-    "header header header"
-    "main main sidebar"
-    "footer footer footer";
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
-}
-header{
-    grid-area: header;
-    background-color: blueviolet;
-}
-.left{
-    grid-area: main;
-    background-color: lightgreen; height: 65vh;
+html, 
+body{
+    background-color: lightblue;
 }
 
-.right{
-    grid-area: sidebar;
-    background-color: rgb(243, 243, 113); height: 65vh
+h1 {
+    color: black;
+    text-align: center;
 }
 
-footer{
-    grid-area: footer;
-    background-color: pink; 
+p {
+    color: brown;
+    margin-left: 1px;
+    border: 5px solid saddlebrown;
 }
+
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: 10px; 
+}
+
+
